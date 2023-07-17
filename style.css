@@ -2,13 +2,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     margin: 0 auto;
-    width: 700px;
     text-align: justify;
     background-color: rgb(226, 179, 162);
 }
 
 h1 {
     font-size: 50px;
+    text-align: center;
 }
 
 h2 {
@@ -19,4 +19,39 @@ h2 {
 img {
     height: auto;
     width: 400px;
+}
+
+.icons {
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.homepage-menu {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.homepage-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: block;
+    width: 250px;
+    padding: 30px 0px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    transition: transform .2s;
+}
+
+.homepage-menu li {
+    display: inline-block;
+}
+
+.homepage-menu a:hover  {
+    transform: scale(1.2);
+    background-color: rgb(228, 171, 151);
 }
