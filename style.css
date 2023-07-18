@@ -55,3 +55,30 @@ img {
     transform: scale(1.2);
     background-color: rgb(228, 171, 151);
 }
+
+.container {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+    
+
+.dish-image {
+    float: left;
+    width: 500px;
+    border-radius: 20px;
+    margin: 30px;
+}
+
+
+.back {
+    display: inline-block;
+    margin: 10px;
+    background-color:rgb(159, 244, 255);
+    padding: 20px 75px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
